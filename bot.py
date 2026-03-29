@@ -106,9 +106,9 @@ async def handle_crypto_selection(update: Update, context: ContextTypes.DEFAULT_
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(keyboard)
         )
-    except Exception as e:
+     except Exception as e:
         logger.error(f"Invoice creation error: {e}")
-        await query.edit_message_text("❌ Error creating invoice. Please try again with /start")
+        await query.edit_message_text(f"❌ Error: {str(e)}")
 
 
 async def check_payment(update: Update, context: ContextTypes.DEFAULT_TYPE):
