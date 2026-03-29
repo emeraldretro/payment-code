@@ -161,7 +161,7 @@ def main():
     app.add_handler(CallbackQueryHandler(handle_crypto_selection, pattern="^pay_"))
     app.add_handler(CallbackQueryHandler(check_payment, pattern="^check_"))
     logger.info("Bot is running...")
-    app.run_polling(drop_pending_updates=True)
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
 if __name__ == "__main__":
