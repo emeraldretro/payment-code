@@ -7,10 +7,10 @@ from aiocryptopay import AioCryptoPay, Networks
 # ============================================================
 # PASTE YOUR TOKENS HERE (keep these private)
 # ============================================================
-BOT_TOKEN = "PASTE_YOUR_BOT_TOKEN_HERE"
-CRYPTO_PAY_TOKEN = "PASTE_YOUR_CRYPTOPAY_TOKEN_HERE"
-STANDARD_INVITE_LINK = "PASTE_YOUR_STANDARD_GROUP_INVITE_LINK_HERE"
-PREMIUM_INVITE_LINK = "PASTE_YOUR_PREMIUM_GROUP_INVITE_LINK_HERE"
+BOT_TOKEN = "8707588389:AAHyWwgBk_oiOR2EOlCiPz1U6a1AqlApZ-0"
+CRYPTO_PAY_TOKEN = "558733:AAMBFhSntY6e4xrPT9VpbU4btRHNO3eYWna"
+STANDARD_INVITE_LINK = "https://t.me/+7sLUDUEWQLZhY2Vh"
+PREMIUM_INVITE_LINK = "https://t.me/+vXAfYJQFD6NhNTc5"
 # ============================================================
 
 STANDARD_PRICE = 25
