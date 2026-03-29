@@ -68,7 +68,7 @@ async def handle_crypto_selection(update: Update, context: ContextTypes.DEFAULT_
         await crypto.close()
         pending_invoices[invoice.invoice_id] = {"user_id": query.from_user.id, "plan": plan_key}
         keyboard = [
-            [InlineKeyboardButton("💳 Pay Now", url=invoice.pay_url)],
+            [InlineKeyboardButton("💳 Pay Now", url=invoice.bot_invoice_url)],
             [InlineKeyboardButton("✅ I've Paid", callback_data=f"check_{invoice.invoice_id}")]
         ]
         await query.edit_message_text(
