@@ -8,7 +8,7 @@ from aiocryptopay import AioCryptoPay, Networks
 # PASTE YOUR TOKENS HERE (keep these private)
 # ============================================================
 BOT_TOKEN = "8707588389:AAHyWwgBk_oiOR2EOlCiPz1U6a1AqlApZ-0"
-CRYPTO_PAY_TOKEN = "558733:AAMBFhSntY6e4xrPT9VpbU4btRHNO3eYWna"
+CRYPTO_PAY_TOKEN = "558733:AAW89dDTcwiRvVWZXc4Pr2tWzJvqOXtylPG"
 STANDARD_INVITE_LINK = "https://t.me/+7sLUDUEWQLZhY2Vh"
 PREMIUM_INVITE_LINK = "https://t.me/+vXAfYJQFD6NhNTc5"
 # ============================================================
